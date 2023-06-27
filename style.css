@@ -2,16 +2,21 @@ body{
     width: 1368px;
     height: 3359px;
     display: grid;
-    margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5rem;
+    border-style: solid black;
+    background-color: rgb(240, 240, 240);
     
 }
 
 img{
+    
     width: 144px;
 }
 
 li {
-    margin-top: 80px;
+    align-items: center;
     text-decoration: none;
     display: inline;
     
@@ -21,6 +26,7 @@ a{
     margin: 0 20px;
     color: gray;
     font-family: "Yandex Sans Display";
+    font-size: 15px;
 }
 a:hover{
     text-decoration: none;
@@ -33,7 +39,8 @@ p{
 }
 .header{
     width: 1368px;
-    height: 67px;
+    height: 120px;
+    background-color:white;
 }
 p.number{
     text-align: right;
@@ -85,8 +92,9 @@ p.number{
     line-height: 107%;  
     margin-left: 102px;
     margin-top: 25px;
-   
-    
+}
+.button:hover{
+    background: #e4bc0c;
 }
 .size{
     width: 801px;
