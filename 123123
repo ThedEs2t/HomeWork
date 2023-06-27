@@ -1,0 +1,39 @@
+<header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="nav">
+                    <a class="nav__link1" href="#">Ппппппп</a>
+                    <a class="nav__link2" href="#">ООО</a>
+                    
+                    <div class="logo__container">
+                        <div class="logo">
+                            <img src="../logo.png" />
+                        </div>
+                    </div>
+              
+                    <a class="nav__link3" href="#">Ккккк</a>
+                    <a class="nav__link4" href="#">Ррррррр</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+    <header class = "header ">
+        <ul type = "none" class="li">
+            <li><a href="#"><img style="grid-column-start: auto;" src="image/YTaxi.png"><p>Офицальный партнер г.Омск</p></a></li>
+            <li><a href="#">Начала работы</a></li>
+            <li><a href="#">Преимущества работы</a></li>
+            <li><a href="#">Приложение</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a class="number">8 (3812) 40-46-45 заказать звонок</a></li>
+        </ul>
+        
+    </header>
