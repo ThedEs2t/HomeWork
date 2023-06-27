@@ -3,38 +3,114 @@ body{
     height: 3359px;
     display: grid;
     margin: 0px auto;
+    
 }
 
 img{
     width: 144px;
 }
 
-li{
+li {
+    margin-top: 80px;
     text-decoration: none;
     display: inline;
+    
 }
 a{
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 20px;
     color: gray;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Yandex Sans Display";
 }
 a:hover{
     text-decoration: none;
     color: black;
 }
 p{
+    color: gray;
+    font-family: "Yandex Sans Display";
     text-align: right;
 }
-#header{
+.header{
     width: 1368px;
-    height: 120px;
+    height: 67px;
+}
+p.number{
+    text-align: right;
+    margin-top: -95px;
+    color: #000;
+    font-size: 16px;
+    font-family: Yandex Sans Display;
+    font-weight: 700;
+    line-height: 107%;
+
 }
 
-footer{
+
+.introduction{
+    margin-top: -80px;
+    width: 606px;
+    height: 530px;
+    flex-shrink: 0;
+    background-color: rgba(236, 236, 236, 1);
+
+}
+.font{
+    text-align: justify;
+    margin-left: 102px;
+    margin-top: 115px;
+    color: #000;
+    font-size: 40px;
+    font-family: Yandex Sans Display;
+    font-weight: 700;
+    line-height: 122.5%;
+}
+.sec{
+    text-align: justify;
+    margin-left: 102px;
+    color: #000;
+    font-size: 18px;
+    font-family: Yandex Sans Display;
+
+}
+.button{
+    width: 267px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFDF39;
+    color: #000;
+    font-size: 18px;
+    font-family: Yandex Sans Display;
+    line-height: 107%;  
+    margin-left: 102px;
+    margin-top: 25px;
+   
+    
+}
+.size{
+    width: 801px;
+    height: 530px;
+    flex-shrink: 0;
+    margin-left: 68px;
+
+}
+.block{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 500px 1fr 2fr;
+    border: none;
+    margin: 0;
+}
+
+.footer{
     bottom: 0;
     margin-top: 3359px;
     width: 1368px;
     height: 120px;
     background-color: black;
+    outline: 2px solid #000
 }
+
+
+
