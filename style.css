@@ -1,0 +1,40 @@
+body{
+    width: 1368px;
+    height: 3359px;
+    display: grid;
+    margin: 0px auto;
+}
+
+img{
+    width: 144px;
+}
+
+li{
+    text-decoration: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+p{
+    text-align: right;
+}
+#header{
+    width: 1368px;
+    height: 120px;
+}
+
+footer{
+    bottom: 0;
+    margin-top: 3359px;
+    width: 1368px;
+    height: 120px;
+    background-color: black;
+}
