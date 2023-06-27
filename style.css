@@ -51,7 +51,8 @@ a:hover{
     color: black;
 }
 .p{
-    margin-top: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
     align-items: center;
     margin-left: -60px;
     color: #8B8B8B;
@@ -59,6 +60,14 @@ a:hover{
     font-family: Yandex Sans Display;
     font-weight: 300;
     line-height: 107%;
+    color: #8B8B8B;
+}
+.foot{
+    margin: 0 10px;
+    margin-left: -60px;
+    color: #8B8B8B;
+    font-size: 14px;
+    font-family: Yandex Sans Display;
     color: #8B8B8B;
 }
 .nav {
@@ -117,6 +126,20 @@ a:hover{
     margin-top: 5px;
     align-items: center;
     margin-left: -125px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    position: relative;
+    width: 24.18%;
+    text-align: left;
+    text-decoration: none;
+    height: 55px;
+    line-height: 50px;
+}
+.nav_link5{
+    margin-top: -55px;
+    align-items: center;
+    margin-left: 800px;
     display: inline-block;
     box-sizing: border-box;
     vertical-align: top;
@@ -205,11 +228,13 @@ p.number{
 }
 
 .footer{
+    display: flex;   
+    margin-left: 0;
     bottom: 0;
     width: 1368px;
     height: 120px;
     background-color: black;
-    outline: 2px solid #000
+    
 }
 
 .job.font{
@@ -223,12 +248,82 @@ p.number{
     width: 1368px;
     height: 120px;
     background-color:#FFDF39;
-    outline: 2px solid #000
+
 }
-.last.arrow{
-    margin-left: 5600px;
+.resolution{
+    margin-left: 500px;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 600;
+
+    
+    
+}
+.arrow{
+   
+    width: 18px;
+    height: 18px;
+    position:absolute;
+    margin-top: 40px;
+    margin-left: 940px;
+    flex-shrink: 0;
 }
 
 .form{
     margin-top: 3190px;
+}
+.footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+.text2{
+    position:absolute;
+    margin-left: 343px;
+    color: #000;
+    font-size: 30px;
+    font-family: Yandex Sans Display;
+    font-weight: 700;
+    line-height: 122.5%;
+}
+.text3{
+    font-size: 30px;
+    font-family: Yandex Sans Display;
+    position:absolute;
+    margin-left: 583px;
+}
+
+.inputName{
+    width: 399px;
+    height: 45px;
+    margin-top: 0px;
+    margin-left: 74px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 0.3px solid #898989;
+    background: #FFF;
+}
+
+.text4{
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 270px;
+    margin-top: -30px;
+    color: #8B8B8B;
+    font-size: 12px;
+    font-family: Yandex Sans Display;
+    font-weight: 300;
+    line-height: 107%;   
+}
+.form button{
+    width: 172px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFDF39;
+    color: #000;
+    font-size: 18px;
+    font-family: Yandex Sans Display;
+    line-height: 107%;  
+    margin-left: 102px;
+    margin-top: -20px;
 }

@@ -15,7 +15,7 @@
                        <a href="#"><img src="image/YTaxi.png" /> </a> 
                 </div>
                 <div class="p">
-                    <p>Офицальный партнер <br> г.Омск</p>
+                    <p style="margin-left: 30px;">Офицальный партнер <br> г.Омск</p>
                 </div>  
                 <nav class="nav">
                         <a class="nav_link1" href="#" >Начала работы</a>
@@ -23,6 +23,10 @@
                         <a class="nav_link3" href="#" >Приложение</a>
                         <a class="nav_link4" href="#" >Контакты</a>
                 </nav>
+                <div class="p">
+                    <p style="font-weight: 800; color: black;">8 (3812) 49-46-45  <br>
+                        заказать звонок</p>
+                </div>
                 <div>
                     <a href="#"></a>
                 </div>
@@ -39,7 +43,8 @@
             Работайте тогда, когда удобно<br>
             Крупнейший автопарк в г.Омск
             </p>
-            <button class="button" type="submit" form = "data">
+            <form action=""></form>
+            <button id="goToForm" class="button" type="submit" form = "data">
                 Заполнить форму
             </button>
         </div>
@@ -53,9 +58,22 @@
     <div class="job"></div>
 
     <div class="form introduction block">
-        <p class="font"> 
-            Оставить заявку
-        </p>
+        
+        <div >
+            <p class="font" style="margin-top: 20px;"> 
+                Оставить заявку
+            </p>
+            <p style="margin-left: 74px; margin-top: 80px;">ФИО</p>
+            <p > <input  class="inputName" type="text" name = "ФИО"></p>
+            <p style="margin-left: 74px;">Телефон</p>
+            <p > <input style="margin-top:0;" class="inputName"  type="number" name = "number"></p>
+                <button id="EnterDate" style="margin-top: 70px; margin-left: 74px;" class="button" type="submit" form = "data">
+                    Отправить
+                </button>
+                <p class="text4">Нажимая кнопку, вы соглашаетесь<br>
+                    с политикой конфиденциальности</p>
+        </div>
+        
         <div>
             <div>
                 <img class="size" src="image/Form.png" >
@@ -63,15 +81,24 @@
         </div>
        
     </div>
-    <div class="last block ">
-        <p>Нет автомобиля?Работать на авто компании </p>
+    <div class="last block">
+        <p class="text2">Нет автомобиля? </p><p class="text3">Работать на авто компании </p>
         <img class="arrow" src="image/right.svg" >
     </div>
     
-    <footer class="footer">
-        
+    <footer class="footer foot">
+        <p style="margin-top: 30px; margin-left: 5%;">Официальный партнер Яндекс Такси<br>
+            г.Омск
+        <br>ОГРНИП 12345432112344 </p>
+        <nav class="nav">
+            <a class="nav_link1 text" style="margin-top: 3%; " href="#" >Начала работы</a>
+            <a class="nav_link2 text " style="margin-top: 3%;"  href="#" >Преимущества работы</a>
+            <a class="nav_link3 text" style="margin-top: 3%;"  href="#" >Приложение</a>
+            <a class="nav_link4 text" style="margin-top: 3%;"  href="#" >Контакты</a>
+            <a class="nav_link5 text" href="#" >Политика конфиденциальности</a>
+    </nav>
     </footer>
-    
+
     <div>
 
     </div>
