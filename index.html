@@ -46,10 +46,7 @@
                     Работайте тогда, когда удобно<br>
                     Крупнейший автопарк в г.Омск
                 </p>
-                <form action=""></form>
-                <button id="#end" class="button" type="submit" form="data">
-                    Заполнить форму
-                </button>
+                <a href="#end"><input id="scrl" class="button" type="submit" form="data" value="Заполнить форму"></a>
             </div>
             <div>
                 <img class="size" src="image/start.png">
@@ -147,28 +144,28 @@
             <div id="Div2">
                 <p><span id="snap">Email:</span> info@taxi.ru</p>
                 <p><span id="snap">Офис:</span> г.Омск, ул.Дмитриева 15/1</p>
-                <a target="_blank" href="https://yandex.ru/maps/66/omsk/house/ulitsa_dmitriyeva_15_1/Y0oYdQdkS0QBQFtufXV2eXpnZw==/?ll=73.304216%2C54.978643&z=17">Показать на карте</a>
+                <a target="_blank"
+                    href="https://yandex.ru/maps/66/omsk/house/ulitsa_dmitriyeva_15_1/Y0oYdQdkS0QBQFtufXV2eXpnZw==/?ll=73.304216%2C54.978643&z=17">Показать
+                    на карте</a>
             </div>
         </div>
     </div>
-
     <div id="end">
         <div class="form introduction block">
             <div>
-                <p class="font" style="margin-top: 20px;">
-                    Оставить заявку
-                </p>
-                <p style="margin-left: 74px; margin-top: 80px;">ФИО</p>
-                <p> <input class="inputName" type="text" name="ФИО"></p>
-                <p style="margin-left: 74px;">Телефон</p>
-                <p> <input style="margin-top:0;" class="inputName" type="tel" name="number"></p>
-                <form action="ajax/form.php"></form>
-                <button id="EnterDate" style="margin-top: 70px; margin-left: 74px;" class="button" type="submit"
-                    form="data">
-                    Отправить
-                </button>
-                <p class="text4">Нажимая кнопку, вы соглашаетесь<br>
-                    с политикой конфиденциальности</p>
+                <form id="my-form" action="ajax/form.php" method="post" enctype="multipart/form-data">
+                    <p class="font" style="margin-top: 20px;">
+                        Оставить заявку
+                    </p>
+                    <p style="margin-left: 74px; margin-top: 80px;">ФИО</p>
+                    <p> <input class="inputName" type="text" name="ФИО"></p>
+                    <p style="margin-left: 74px;">Телефон</p>
+                    <p> <input style="margin-top:0;" class="inputName" type="tel" name="number"></p>
+                    <input id="scrl" style="margin-top: 70px; margin-left: 74px; " type="submit" form="data">
+                    <p class="text4">Нажимая кнопку, вы соглашаетесь<br>
+                        с политикой конфиденциальности
+                    </p>
+                </form>
             </div>
             <div>
                 <div>
