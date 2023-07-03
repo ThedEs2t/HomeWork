@@ -1,6 +1,12 @@
 $(document).ready(function () {
 	$("#myForm").on('submit', function (event) {
 		event.preventDefault();
-		$.post("/form.php", $(this).serialize());
+		$.ajax({
+			type: "get",
+			url: '/form.php',
+			success: function (){
+				alert("Ваша заявка принята! Ожидайте нашего ответа!");
+			}
+		})
 	});
 });

@@ -262,7 +262,7 @@ p.number {
 
 .job {
     display: grid;
-    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-columns: 400px 300px 300px 350px;
     width: 1368px;
     height: 503px;
     background: #FFF;
