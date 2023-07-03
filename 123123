@@ -20,7 +20,19 @@
 
 
 
+  <?php 
 
+$recepient = "fedya_maer@mail.ru";
+$sitename = "Такси";
+
+$name = trim($_POST["name"]);
+$phone = trim($_POST["number"]);
+$message = "ФИО: $name \nТелефон: $phone";
+
+$pagetitle = "Новая заявка с сайта \"$sitename\"";
+mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: $recepient");
+?>
+    
 
 
 

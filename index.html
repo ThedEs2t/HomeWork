@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="form.php"></script>
+    <script type="text/javascript" src="/js/form.js"></script>
+    <script type="text/javascript" src="/js/jquery.js"></script>
     <title>Такси</title>
 </head>
 
@@ -151,17 +154,18 @@
         </div>
     </div>
     <div id="end">
+
         <div class="form introduction block">
             <div>
-                <form id="my-form" action="ajax/form.php" method="post" enctype="multipart/form-data">
+                <form id="myForm" action="form.php" method="POST">
                     <p class="font" style="margin-top: 20px;">
                         Оставить заявку
                     </p>
                     <p style="margin-left: 74px; margin-top: 80px;">ФИО</p>
-                    <p> <input class="inputName" type="text" name="ФИО"></p>
+                    <p> <input class="inputName" type="text" name="name" required></p>
                     <p style="margin-left: 74px;">Телефон</p>
-                    <p> <input style="margin-top:0;" class="inputName" type="tel" name="number"></p>
-                    <input id="scrl" style="margin-top: 70px; margin-left: 74px; " type="submit" form="data">
+                    <p> <input style="margin-top:0;" class="inputName" type="tel" name="number" required> </p>
+                    <input id="scrl" style="margin-top: 70px; margin-left: 74px; " type="submit">
                     <p class="text4">Нажимая кнопку, вы соглашаетесь<br>
                         с политикой конфиденциальности
                     </p>
@@ -174,6 +178,7 @@
             </div>
         </div>
     </div>
+
     <div class="last">
         <p id="first"> Нет автомобиля? </p>
         <p> Работать на авто компании <img src="image/right.svg"> </p>
