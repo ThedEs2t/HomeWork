@@ -1,18 +1,16 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="form.php"></script>
-    <script type="text/javascript" src="/js/form.js"></script>
-    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script src="/jquery-3.7.0.min.js"></script>
     <title>Такси</title>
 </head>
 
 <body>
+    
     <header class="header">
         <div>
             <div class="header__inner">
@@ -63,25 +61,29 @@
             <div>
                 <h1>Начала работы</h1>
                 <h3>
-                    <snap>1.</snap> Оставить заявку на сайте
+                    <snap>1.</snap>
+                    Оставить заявку на сайте
                 </h3>
                 <p> мы свяжемся с вами <br> для уточнения деталей</p>
             </div>
             <div>
                 <h3 style="margin-top: 218px; margin-left: 60px;">
-                    <snap>2.</snap>Скачайте приложение
+                    <snap>2.</snap>
+                    Скачайте приложение
                 </h3>
                 <p style="margin-left: 60px;"> для удобного вывода средств</p>
             </div>
             <div>
                 <h3 style="margin-top: 218px; margin-left: 60px;">
-                    <snap>3.</snap>Выходите на линию
+                    <snap>3.</snap>
+                    Выходите на линию
                 </h3>
                 <p style="margin-left: 60px;"> чтобы получить первые заказы</p>
             </div>
             <div style="margin-left: -44px;">
                 <h3 style="margin-top: 218px; margin-left: 60px;">
-                    <snap>4.</snap>Начните зарабатывать
+                    <snap>4.</snap>
+                    Начните зарабатывать
                 </h3>
                 <p style="margin-left: 60px;">работайте тогда, когда вам удобно </p>
             </div>
@@ -156,15 +158,16 @@
     <div id="end">
 
         <div class="form introduction block">
-            <div>
+            <div id="response">
                 <form id="myForm" action="form.php" method="POST">
+                    <script src="form.js"></script>
                     <p class="font" style="margin-top: 20px;">
                         Оставить заявку
                     </p>
                     <p style="margin-left: 74px; margin-top: 80px;">ФИО</p>
-                    <p> <input class="inputName" type="text" name="name" required></p>
+                    <p><input class="inputName" type="text" name="name" required></p>
                     <p style="margin-left: 74px;">Телефон</p>
-                    <p> <input style="margin-top:0;" class="inputName" type="tel" name="number" required> </p>
+                    <p><input style="margin-top:0;" class="inputName" type="tel" name="number" required></p>
                     <input id="scrl" style="margin-top: 70px; margin-left: 74px; " type="submit">
                     <p class="text4">Нажимая кнопку, вы соглашаетесь<br>
                         с политикой конфиденциальности
@@ -181,10 +184,9 @@
 
     <div class="last">
         <p id="first"> Нет автомобиля? </p>
-        <p> Работать на авто компании <img src="image/right.svg"> </p>
+        <p> Работать на авто компании <img src="image/right.svg"></p>
 
     </div>
-
 
 
     <footer class="footer">
