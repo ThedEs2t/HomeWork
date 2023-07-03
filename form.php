@@ -7,22 +7,17 @@ $name = trim($_POST['name']);
 $number = trim($_POST['number']);
 
 
-if(!empty($name) && !empty($number)){
-    $fileDate =  file_get_contents("text.txt");
-    file_put_contents("text.txt", $fileDate . $name . ', ' . $number . PHP_EOL);
-    $error = 'Сохранено';
-}
+$fileDate =  file_get_contents("text.txt");
+file_put_contents("text.txt", $fileDate . $name . ', ' . $number . PHP_EOL);
 
 
+$message = "ФИО: " . $name . "\nНомер: " . $number;
 
-
-if (mail($to, "Заявка с сайта", "ФИО:".$name.". Номер: ".$number ))
- {
-    echo "сообщение успешно отправлено";
+if (mail($to, "Заявка с сайта", $message)) {
+    echo "Сообщение успешно отправлено";
 } else {
-    echo "при отправке сообщения возникли ошибки";
+    echo "При отправке сообщения возникли ошибки";
 }
-
 
 
 ?>
